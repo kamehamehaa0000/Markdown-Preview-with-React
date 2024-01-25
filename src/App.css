@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.hero {
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #b8e1ff;
+}
+.container {
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #b8e1ff;
+}
+#editor {
+  background-color: #f5a6e6;
+  width: 35%;
+  padding: 10px;
+  margin: 2rem;
+  height: 80vh;
+  border: 2px solid black;
+  box-shadow: 7px 7px 1px 7px #54457f;
+  position: relative;
+}
+#editor:focus {
+  outline: none;
+}
+#preview {
+  background-color: #fffd82;
+  border: 2px solid black;
+  box-shadow: 7px 7px 1px 7px #020100;
+  overflow: scroll;
+  width: 40%;
+  margin-right: 40px;
+  height: 80vh;
+  padding: 30px;
+}
+#preview img {
+  width: 300px;
+}
+#preview::-webkit-scrollbar {
+  display: none;
+}
+
+#preview h1 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 1rem;
+}
+span {
+  color: rgb(218, 55, 55);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
