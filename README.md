@@ -1,4 +1,4 @@
-# Markdown Previer App
+# Markdown Preview App
 
 This a one of the Certification projects I made for Freecodecamp.org .
 
